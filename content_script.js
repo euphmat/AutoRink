@@ -1,11 +1,5 @@
 ﻿//----------------------
 $(function () {
-    //疎通確認コード
-    let flag = false;
-    setInterval(function () {
-        document.title = (flag ? "■" : "◆") + document.title.replace(/^[■◆]/, '');
-        flag = !flag;
-    }, 1000);
 
     $('select[name="workingtimes_from_hour"]').val("9");        //出退勤時刻_開始_時
     $('select[name="workingtimes_from_minute"]').val("30");     //出退勤時刻_開始_分
