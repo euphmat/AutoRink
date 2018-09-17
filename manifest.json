@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "タイムカード自動入力くん",
+  "description": "Rinkのタイムカードを自動入力します",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["https://rink.tokyo1.novel-seed.com/rink/view/timecard/personal/*"],
+    "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
+  }],
+  "options_page": "options.html",
+  "permissions": [
+    "https://rink.tokyo1.novel-seed.com/rink/view/timecard/personal/*",
+    "storage"
+  ]
+}
