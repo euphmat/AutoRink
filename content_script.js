@@ -14,7 +14,7 @@ $(function () {
     $('select[name="resttimes_to_hour"]').val("13");            //休憩時刻_終了_時
     $('select[name="resttimes_to_minute"]').val("0");           //休憩時刻_終了_分
 
-    //休憩時間アイテムを一旦削除する
+    //入力済みの日付にアクセスした際、休憩時間が重複しないように一旦削除する
     $('.selectitem:eq(0)').click();
     $('.formbtn.radius.del:eq(0)').click();
 
