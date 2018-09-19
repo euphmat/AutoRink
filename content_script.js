@@ -1,12 +1,30 @@
 ﻿$(function () {
-    chrome.runtime.sendMessage({method: "getLocalStorage", key: 'workingtimes_from_hour'}, function(response) {
-        alert(response.data);
-      });
+    chrome.runtime.sendMessage({
+        method: "getLocalStorage",
+        key1: 'workingtimes_from_hour',
+        key2: 'workingtimes_from_minute',
+        key3: 'workingtimes_to_hour',
+        key4: 'workingtimes_to_minute',
+        key5: 'resttimes_from_hour',
+        key6: 'resttimes_from_minute',
+        key7: 'resttimes_to_hour',
+        key8: 'resttimes_to_minute'
+    }, function (response) {
+        console.log(response.Data_workingtimes_from_hour);
+        console.log(response.Data_workingtimes_from_minute);
+        console.log(response.Data_workingtimes_to_hour);
+        console.log(response.Data_workingtimes_to_minute);
+        console.log(response.Data_resttimes_from_hour);
+        console.log(response.Data_resttimes_from_minute);
+        console.log(response.Data_resttimes_to_hour);
+        console.log(response.Data_resttimes_to_minute);
+        $('select[name="workingtimes_from_hour"]').val(response.Data_workingtimes_from_hour); //出勤時刻_時
+    });
 });
 
 $(function () {
 
-    $('select[name="workingtimes_from_hour"]').val("9"); //出勤時刻_時
+    //$('select[name="workingtimes_from_hour"]').val("9"); //出勤時刻_時
     $('select[name="workingtimes_from_minute"]').val("30"); //出勤時刻_分
 
     $('select[name="workingtimes_to_hour"]').val("18"); //退勤時刻_時
