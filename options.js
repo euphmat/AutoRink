@@ -1,7 +1,6 @@
 $(function(){
   //保存
   $("#save").click(function () {
-    alert("ローカルストレージに保存したよ");
     localStorage.setItem('workingtimes_from_hour', $("#workingtimes_from_hour").val());
     localStorage.setItem('workingtimes_from_minute', $("#workingtimes_from_minute").val());
     localStorage.setItem('workingtimes_to_hour', $("#workingtimes_to_hour").val());
