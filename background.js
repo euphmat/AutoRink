@@ -8,7 +8,8 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             Data_resttimes_from_hour:      localStorage[request.key5],
             Data_resttimes_from_minute:    localStorage[request.key6],
             Data_resttimes_to_hour:        localStorage[request.key7],
-            Data_resttimes_to_minute:      localStorage[request.key8]
+            Data_resttimes_to_minute:      localStorage[request.key8],
+            Data_biko:                     localStorage[request.key9]
         });
     else
         sendResponse({});

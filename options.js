@@ -8,6 +8,7 @@ $(function(){
   $("#resttimes_from_minute")   .val(localStorage.getItem('resttimes_from_minute'));
   $("#resttimes_to_hour")       .val(localStorage.getItem('resttimes_to_hour'));
   $("#resttimes_to_minute")     .val(localStorage.getItem('resttimes_to_minute'));
+  $("#biko")                    .val(localStorage.getItem('biko'));
 
   //保存ボタン
   $("#save").click(function () {
@@ -19,5 +20,6 @@ $(function(){
     localStorage.setItem('resttimes_from_minute',    $("#resttimes_from_minute").val());
     localStorage.setItem('resttimes_to_hour',        $("#resttimes_to_hour").val());
     localStorage.setItem('resttimes_to_minute',      $("#resttimes_to_minute").val());
+    localStorage.setItem('biko',                     $("#biko").val());
   });
 });

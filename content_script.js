@@ -8,7 +8,8 @@
         key5: 'resttimes_from_hour',
         key6: 'resttimes_from_minute',
         key7: 'resttimes_to_hour',
-        key8: 'resttimes_to_minute'
+        key8: 'resttimes_to_minute',
+        key9: 'biko'
 
     }, function (response) {
         //ローカルストレージから設定した時刻を取得
@@ -20,6 +21,7 @@
         $('select[name="resttimes_from_minute"]')   .val(response.Data_resttimes_from_minute);      //休憩開始_分
         $('select[name="resttimes_to_hour"]')       .val(response.Data_resttimes_to_hour);          //休憩終了_時
         $('select[name="resttimes_to_minute"]')     .val(response.Data_resttimes_to_minute);        //休憩終了_分
+        $('textarea[name="biko"]')                    .val(response.Data_biko);                       //備考
 
         //入力済みの日付にアクセスした際、休憩時間が重複しないように一旦削除する
         $('.selectitem:eq(0)').click();
