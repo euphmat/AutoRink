@@ -29,6 +29,6 @@
         $('.formbtn.radius.add:eq(0)').click();
 
         //更新ボタン→確定ボタン押下処理
-        $('.formsubmit.radius:eq(0)').click();
+        //$('.formsubmit.radius:eq(0)').click();
     });
 });
