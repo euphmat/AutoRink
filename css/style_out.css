@@ -1,8 +1,8 @@
-div#Main_frame{
-    float: left;
+div.float-left{
+    padding:0px 50px 100px;
 }
 
-
-div#Manu_frame{
-    float: right;
+input{
+    margin:2px;
+    width: 50px;
 }
