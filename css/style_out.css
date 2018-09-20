@@ -1,0 +1,13 @@
+div.float-left{
+    padding:0px 50px 100px;
+    background-color: whitesmoke;
+}
+
+input{
+    margin:2px;
+    width: 50px;
+}
+
+div.fixed bg-primary{
+    word-wrap: break-word;
+}
