@@ -1,6 +1,6 @@
 div.float-left{
     padding:0px 50px 100px;
-    background-color: green;
+    background-color: whitesmoke;
 }
 
 input{
@@ -8,7 +8,6 @@ input{
     width: 50px;
 }
 
-
-input.workingtimes_from_hour{
-    padding-left:20px;
+div.fixed bg-primary{
+    word-wrap: break-word;
 }
