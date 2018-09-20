@@ -12,7 +12,7 @@
         key9: 'biko'
 
     }, function (response) {
-        //ローカルストレージから設定した時刻を取得
+        //ローカルストレージから設定した値を取得
         $('select[name="workingtimes_from_hour"]')  .val(response.Data_workingtimes_from_hour);     //出勤時刻_時
         $('select[name="workingtimes_from_minute"]').val(response.Data_workingtimes_from_minute);   //出勤時刻_分
         $('select[name="workingtimes_to_hour"]')    .val(response.Data_workingtimes_to_hour);       //退勤時刻_時
