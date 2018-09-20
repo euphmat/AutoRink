@@ -1,8 +1,14 @@
 div.float-left{
     padding:0px 50px 100px;
+    background-color: green;
 }
 
 input{
     margin:2px;
     width: 50px;
+}
+
+
+input.workingtimes_from_hour{
+    padding-left:20px;
 }
