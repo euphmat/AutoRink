@@ -10,10 +10,10 @@
   },
   "content_scripts": [{
     "matches": ["https://rink.tokyo1.novel-seed.com/rink/view/timecard/personal/*"],
-    "js": ["jquery-2.2.0.min.js", "content_script.js"]
+    "js": ["js/jquery-2.2.0.min.js", "js/content_script.js"]
   }],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["js/background.js"]
   },
   "options_page": "options.html",
   "permissions": [
