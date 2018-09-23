@@ -11,27 +11,60 @@
 </head>
 
 <body>
-       <div class="fixed bg-primary">
-           Menu
-       </div>
-    
-        <div class="float-left">
-        出勤
-        <input id="workingtimes_from_hour" type="text">:
-        <input id="workingtimes_from_minute" type="text">
-        退勤
-        <input id="workingtimes_to_hour" type="text">:<input id="workingtimes_to_minute" type="text">
-        休憩開始
-        <input id="resttimes_from_hour" type="text">:<input id="resttimes_from_minute" type="text">
-        休憩終了
-        <input id="resttimes_to_hour" type="text">:<input id="resttimes_to_minute" type="text">
-        備考<input id="biko" type="text">
-        
-        <input id="save" type="button" value="保存">
+    <div class="container">
+        <div class="columns">
+            <div class="column col-12">
+                <div class="card">
+
+                    <div class="card-header">
+                        <div class="column col-12">
+                            <div class="card-title"><i class="icon icon-edit"></i> 設定</div>
+                            <div class="divider"></div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="container">
+                            <div class="columns">
+
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-12 formpos"><div class="form-label"><i class="icon icon-time"></i> 出退勤時刻</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_hour" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_minute" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_hour" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_minute" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-12 formpos"><div class="form-label"><i class="icon icon-time"></i> 休憩時間</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_hour" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_minute" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_hour" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
+                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_minute" type="text" maxlength="2"></div>
+                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-12 formpos"><label class="form-label">備考</label><textarea class="form-input" id="biko" rows="5"></textarea></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                <div class="columun col-6 formpos"><input class="btn btn-success btn-lg" id="save" type="button" value="保存"></div>
+                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-    
-    
+    </div>
+    <button class="btn tooltip" data-tooltip="Lorem ipsum dolor sit amet">top tooltip</button>
+    <a href="https://github.com/empty-YK"><figure class="avatar avatar-lg float-right tooltip tooltip-left" data-tooltip="empty-YK"><img src="img/emty-YK.jpg"></figure></a>
+    <a href="https://github.com/euphmat"><figure class="avatar avatar-lg float-right tooltip tooltip-left" data-tooltip="euphmat"><img src="img/euphmat.png"></figure></a>
 </body>
 
 </html>
