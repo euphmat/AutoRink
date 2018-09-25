@@ -4,8 +4,7 @@ body{
     background-attachment: fixed;
 }
 .card{
-    margin: 5em 12em;
-    opacity: 0.95;
+    margin: 3em 12em;
 }
 .formpos{
     padding: 0.3em;
