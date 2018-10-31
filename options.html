@@ -20,49 +20,80 @@
                         <div class="column col-12">
                             <div class="card-title">
                                 <i class="icon icon-edit"></i> 設定
-                                <a href="https://rink.tokyo1.novel-seed.com/rink/view/timecard/personal"><span class="label label-secondary float-right">🌱 タイムカード</span></a>
+                                <a href="https://rink.tokyo1.novel-seed.com/rink/view/timecard/personal"><span class="label label-secondary float-right">🌱
+                                        Rinkタイムカードへ</span></a>
                             </div>
-                            
+
                             <div class="divider"></div>
                         </div>
                     </div>
+                    <form>
+                        <div class="card-body">
 
-                    <div class="card-body">
+                            <div class="container">
+                                <div class="columns">
 
-                        <div class="container">
-                            <div class="columns">
-
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-12 formpos"><div class="form-label"><i class="icon icon-time"></i> 出退勤時刻</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_hour" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_minute" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_hour" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_minute" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-12 formpos"><div class="form-label"><i class="icon icon-time"></i> 休憩時間</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_hour" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_minute" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_hour" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">時</div></div>
-                                <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_minute" type="text" maxlength="2"></div>
-                                <div class="columun col-1 formpos"><div class="form-label">分</div></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-12 formpos"><label class="form-label">備考</label><textarea class="form-input" id="biko" rows="5"></textarea></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
-                                <div class="columun col-6 formpos"><input class="btn btn-success btn-lg" id="save" type="button" value="保存"></div>
-                                <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-12 formpos">
+                                        <div class="form-label"><i class="icon icon-time"></i> 出退勤時刻</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_hour"
+                                            type="text" maxlength="2" placeholder="9" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">時</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_from_minute"
+                                            type="text" maxlength="2" placeholder="30" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">分</div>
+                                    </div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_hour"
+                                            type="text" maxlength="2" placeholder="18" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">時</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="workingtimes_to_minute"
+                                            type="text" maxlength="2" placeholder="30" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">分</div>
+                                    </div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-12 formpos">
+                                        <div class="form-label"><i class="icon icon-time"></i> 休憩時間</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_hour"
+                                            type="text" maxlength="2" placeholder="12" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">時</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="resttimes_from_minute"
+                                            type="text" maxlength="2" placeholder="0" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">分</div>
+                                    </div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_hour"
+                                            type="text" maxlength="2" placeholder="13" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">時</div>
+                                    </div>
+                                    <div class="columun col-5 formpos"><input class="form-input" id="resttimes_to_minute"
+                                            type="text" maxlength="2" placeholder="0" required></div>
+                                    <div class="columun col-1 formpos">
+                                        <div class="form-label">分</div>
+                                    </div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-12 formpos"><label class="form-label">備考</label><textarea class="form-input" id="biko" rows="5"></textarea></div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                    <div class="columun col-6 formpos"><input class="btn btn-success btn-lg" id="save" type="submit" value="保存"></div>
+                                    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
+
             </div>
         </div>
     </div>

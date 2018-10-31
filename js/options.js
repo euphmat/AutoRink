@@ -21,6 +21,9 @@ $(function(){
     localStorage.setItem('resttimes_to_hour',        $("#resttimes_to_hour").val());
     localStorage.setItem('resttimes_to_minute',      $("#resttimes_to_minute").val());
     localStorage.setItem('biko',                     $("#biko").val());
+  });
+  //submit後処理
+  $('form').on('submit', function() {
     alert("保存しました。");
   });
 });
