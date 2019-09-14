@@ -1,5 +1,7 @@
 # input_Timecard
 
+![](https://i.imgur.com/WsvX1mN.png)
+
 ## 概要
 グループウェア：RINKのタイムカードを自動入力するChrome拡張機能
 
