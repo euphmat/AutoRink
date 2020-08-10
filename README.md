@@ -1,4 +1,4 @@
-# タイムカード自動入力くん
+# TimecardAutomaticEntry-Kun
 It helps you enter time and attendance in the groupware RINK.
 
 ## Requirement
