@@ -1,4 +1,4 @@
-# input_Timecard
+# タイムカード自動入力くん
 
 ![](https://i.imgur.com/WsvX1mN.png)
 
