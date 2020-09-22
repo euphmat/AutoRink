@@ -1,4 +1,4 @@
-# 🌱 AutoRink
+# AutoRink
 株式会社 NovelSeed が提供する、RiNK（中小企業・団体向けグループウェア）の
 「勤怠管理」ページにて、勤怠情報を自動的に入力してくれるGoogleChrome拡張機能です。
 
